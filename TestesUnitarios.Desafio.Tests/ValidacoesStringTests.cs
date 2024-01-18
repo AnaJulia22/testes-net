@@ -30,10 +30,12 @@ public class ValidacoesStringTests
         var textoProcurado = "qualquer";
 
         //TODO: Corrigir a chamada do método "ContemCaractere" da seção Act
+
         // Act
         var resultado = _validacoes.ContemCaractere(texto, textoProcurado);
 
         // Assert
+        
         //TODO: Corrigir o Assert.True com base no retorno da chamada ao método
         Assert.True(resultado);
     }
